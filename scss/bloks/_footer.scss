@@ -1,0 +1,118 @@
+.footer{
+    padding-top: 90px;
+    padding-bottom: 250px;
+    transform: translate(0, -600px);
+    background-image: url("../../img/bcg-footer.jpg");
+}
+
+
+.footer {
+
+    &__logo-end{
+        @include flex (start, space-between);
+        padding-bottom: 110px;
+    }
+
+    &__logo{
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    &__mini{
+        display: flex;
+        align-items: start;
+    }
+
+    &__logo-img{
+        width: 164px;
+        height: 63px;
+    }
+
+    &__first-div{
+        width: 430px;
+        margin-left: 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__explor-title{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+
+    &__explor-link{
+        display: block;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 18px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+    }
+
+    &__list{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        margin-bottom: 15px;
+    }
+
+    &__item {
+        margin: 0;
+        padding: 0;
+        margin-left: 32px;
+    }
+
+    &__term-title{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+    }
+
+    &__term-text{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    &__thank{
+        display: flex;
+        align-items: center;
+        width: 410px;
+        height: 60px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #ffffff;
+    }
+
+    &__thank-text{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 39px;
+        margin-left: 20px;
+        color: #000000;
+    }
+
+    &__smile{
+        display: block;
+        width: 24px;
+        height: 22px;
+    }
+
+}
+
+

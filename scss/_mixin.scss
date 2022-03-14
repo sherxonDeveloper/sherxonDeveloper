@@ -1,0 +1,12 @@
+@mixin flex($align-items, $just-cont) {
+    display: flex;
+    align-items: $align-items;
+    justify-content: $just-cont;
+  }
+  
+  @mixin linkStyle($tex-dec, $font-size, $line-height, $color) {
+    text-decoration: $tex-dec;
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+  }
